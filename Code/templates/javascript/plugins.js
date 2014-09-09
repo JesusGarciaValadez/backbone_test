@@ -67,3 +67,4 @@ jQuery.fn.centerHeight  = function(){
 // @codekit-append "vendor/jquery-2.1.1.min.js";
 // @codekit-append "vendor/underscore.js";
 // @codekit-append "vendor/backbone.js";
+// @codekit-append "BackboneTest.js";

@@ -42,6 +42,16 @@
 
     //  When page is finished loaded
     $( 'document' ).ready( function ( e ) {
-        
+        BackboneTest.song = new BackboneTest.Song( {
+            titulo:   "One",
+            autor:   "Metallica"
+        } );
+        BackboneTest.view = new BackboneTest.SongView( {
+            model:    BackboneTest.song,
+            el:       $( ".songs" )
+        } );
+
+        BackboneTest.view.render();
+        BackboneTest.view.el;
     } );
 } ) ( jQuery, window, document );
