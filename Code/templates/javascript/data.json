@@ -1,18 +1,18 @@
 {
-    "Cancion":{
-        "Grupo": "Metallica",
-        "Titulo": "One"
+    "cancion":{
+        "author": "Metallica",
+        "titulo": "One"
     },
-    "Cancion":{
-        "Grupo": "Metallica",
-        "Titulo": "Shoot Me Again"
+    "cancion":{
+        "author": "Metallica",
+        "titulo": "Shoot Me Again"
     },
-    "Cancion":{
-        "Grupo": "Korn",
-        "Titulo": "Here to Stay"
+    "cancion":{
+        "author": "Korn",
+        "titulo": "Here to Stay"
     },
-    "Cancion":{
-        "Grupo": "Korn",
-        "Titulo": "Silent Hill"
+    "cancion":{
+        "author": "Korn",
+        "titulo": "Silent Hill"
     },
 }

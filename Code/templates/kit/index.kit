@@ -1,7 +1,10 @@
 <!--@import head-->
     <!-- Contenido HTML -->
-    <div class="wrapper">
-        <ul class="songs"></ul>
-        <a href="assets/js/data.json" title="Probar">Probar</a>
-    </div>
+    <ul class="songs"></ul>
+
+    <script id="song-template" type="text/x-handlebars-template">
+        <li>
+            <p>{{titulo}} - {{autor}} <a href="#" title="Presionar" class="test">Presionar</a></p>
+        </li>
+    </script>
 <!--@import html_end-->

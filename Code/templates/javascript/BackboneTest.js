@@ -52,21 +52,8 @@
          */
         //  !Método inicializador
         init:           function ( ) {
-            
-        },
-        Song:           Backbone.Model.extend( {} ),
-        SongView:       Backbone.View.extend( {
-            tagName:      "li",
-            className:    "title",
-            id:           "song",
-            render: function ( ) {
-                var song    = this.model;
-                var title   = song.get( 'titulo' );
-                var author  = song.get( 'autor' );
-
-                this.$el.html( "<p>" + title + "</p>" + "<p>" + author + "</p>" );
-            }
-        } ),
+ 
+        }
     };
 
     // Give the init function the BackboneTest prototype for later instantiation

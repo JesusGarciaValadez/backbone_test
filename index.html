@@ -28,10 +28,13 @@
     </head>
     <body>
     <!-- Contenido HTML -->
-    <div class="wrapper">
-        <ul class="songs"></ul>
-        <a href="assets/js/data.json" title="Probar">Probar</a>
-    </div>
+    <ul class="songs"></ul>
+
+    <script id="song-template" type="text/x-handlebars-template">
+        <li>
+            <p>{{titulo}} - {{autor}} <a href="#" title="Presionar" class="test">Presionar</a></p>
+        </li>
+    </script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
         <script src="assets/js/main.min.js"></script>
